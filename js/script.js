@@ -13,7 +13,7 @@ var myModels = ["./models/desk.glb", "/models/DeskRedOak.glb"]
 var counter = 0;
 document.getElementById("change-colour").addEventListener("click", function() {
     counter++;
-    if (counter==3) { 
+    if (counter==2) { 
         counter = 0;
     }
     document.getElementById("model").src = myModels[counter];
