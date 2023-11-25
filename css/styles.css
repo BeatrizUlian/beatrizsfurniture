@@ -16,8 +16,8 @@
     display: block;
 }
 #model{
-    width: 600px;
-    height:500px;
+    width: 400px;
+    height:300px;
 }
 
 /* general style */
@@ -182,14 +182,13 @@
   
   /* products*/ 
   .product{
-    max-width: 1000px;
-    margin:auto;
+    max-width: 100%;
     margin-top: 100px;
      display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    margin: 2px solid red;
+    gap: 10px;
+    justify-content:space-around;
+    border: 2px solid red;
   }
   
   .product-img{
