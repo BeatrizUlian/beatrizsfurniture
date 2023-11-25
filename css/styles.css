@@ -177,21 +177,20 @@
   }
   
   /* products*/ 
-  .products {
+  .product{
     max-width: 1000px;
     margin:auto;
     margin-top: 100px;
-    
-  }
-  
-  .products ul{
      display: flex;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
   }
   
-  .products ul li {
+  .product-img{
+    max-width: 95%;
+  }
+  .card{
     background: #fff;
     width: 450px;
     height: 500px;
@@ -201,16 +200,11 @@
     opacity: 95%;
   }
   
-  .products ul li:hover {
+  .card:hover {
   opacity: 100%;
   transition: 0.3s;
   }
   
-  .productsimg{
-    width: 100%;
-    max-width: 100%;
-    border-radius: 5px;
-  }
   
   #prices  {
      box-shadow: 4px 4px 0px #6c4b3e;
