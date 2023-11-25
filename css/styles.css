@@ -184,7 +184,7 @@
     flex-wrap: wrap;
     gap: 10px;
     justify-content:space-around;
-    border: 2px solid red;
+
   }
   
   .product-img{
@@ -199,9 +199,8 @@
     border-radius: 5px;
     opacity: 95%;
   }
-h2{
-    margin-top:100px;
-}
+
+
   .card-info{
     width: 450px;
     height: 500px;
@@ -209,7 +208,7 @@ h2{
     font-size: 24px;
     border-radius: 5px;
     opacity: 95%;
-    border: 2px solid green;
+
    overflow: scroll;
   }
   
@@ -222,7 +221,7 @@ h2{
 #model{
     width: 450px;
     height:500px;
-    border: 2px solid blue;
+  
 }
 .model{
     width: 450px;
