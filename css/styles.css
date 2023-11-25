@@ -22,8 +22,9 @@
 
   
   h1 {
-    font-family: "Poiret One";
+    font-family: "Cutive Mono";
     color:#4a2011;
+    font-size: 24px;
   }
   
   h1::after {
