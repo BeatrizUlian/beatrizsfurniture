@@ -15,7 +15,7 @@
 .visible {
     display: block;
 }
-.model{
+#model{
     width: 600px;
     height:500px;
 }
