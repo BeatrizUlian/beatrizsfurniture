@@ -9,7 +9,7 @@ document.getElementById("change-colour").addEventListener("click", function() {
 });
 
 //example with multiple models
-var myModels = ["./models/desk.glb", "/models/DeskRedOak.glb"]
+var myModels = ["./models/desk.glb", "./models/DeskRedOak.glb"]
 var counter = 0;
 document.getElementById("change-colour").addEventListener("click", function() {
     counter++;
