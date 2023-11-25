@@ -5,8 +5,8 @@
     padding: 3px;
 }
 .larger-example {
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: rgb(208, 198, 182);
 }
 #model-info {
