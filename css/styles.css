@@ -15,6 +15,10 @@
 .visible {
     display: block;
 }
+.model{
+    width: 600px;
+    height:500px;
+}
 
 /* general style */
 * {
