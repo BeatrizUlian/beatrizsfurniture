@@ -34,11 +34,10 @@
 //     document.getElementById("model-chair").src = myModels[counter];
 // });
 
-
-function modelChange(product, modelArray) {
+function setupModelChange(product, modelArray) {
     var counter = 0;
-    var buttons = document.querySelectorAll('.change-colour[data-product="' + product + '"]');
-    var model = document.querySelector('.model[data-product="' + product + '"]');
+    var buttons = document.querySelectorAll('.card[data-product="' + product + '"] .change-colour');
+    var model = document.querySelector('.card[data-product="' + product + '"] .model');
 
     buttons.forEach(function (button) {
         button.addEventListener("click", function () {
@@ -53,8 +52,8 @@ function modelChange(product, modelArray) {
 
 // Product 1: Rustic Pine Desk
 var deskModels = ["./models/desk.glb", "./models/DeskRedOak.glb"];
-modelChange("desk", deskModels);
+setupModelChange("desk", deskModels);
 
 // Product 2: Elegant Chair
 var chairModels = ["./models/Chair.glb", "./models/ChairGreyLeather.glb", "./models/ChairLightBeigeLeather.glb"];
-modelChange("chair", chairModels);
+setupModelChange("chair", chairModels);
