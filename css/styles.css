@@ -5,9 +5,19 @@
     padding: 3px;
 }
 
-#model-info {
+#desk-info {
     display: none;
 }
+
+#chair-info {
+  display: none;
+}
+
+#beanbag-info {
+  display: none;
+}
+
+
 .visible {
     display: block;
 }

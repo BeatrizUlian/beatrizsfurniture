@@ -39,7 +39,7 @@ function setupProductInteraction(product, modelArray) {
     var counter = 0;
     var buttons = document.querySelectorAll('.card[data-product="' + product + '"] .change-colour');
     var model = document.querySelector('.card[data-product="' + product + '"] .model');
-    var infoElements = document.querySelectorAll('.card[data-product="' + product + '"] .product-info');
+    var infoElement = document.getElementById(product + '-info');
 
     buttons.forEach(function (button) {
         button.addEventListener("click", function () {
@@ -53,9 +53,7 @@ function setupProductInteraction(product, modelArray) {
 
     // Function to toggle the visibility of product information
     function toggleProductInfo() {
-        infoElements.forEach(function (infoElement) {
-            infoElement.classList.toggle('visible');
-        });
+        infoElement.classList.toggle('visible');
     }
 
     // Event listener for the info button
@@ -74,4 +72,3 @@ setupProductInteraction("chair", chairModels);
 // Product 3: Beanbag Chair
 var beanbagModels = ["./models/BeanBagChair.glb"];
 setupProductInteraction("beanBag", beanbagModels);
-
