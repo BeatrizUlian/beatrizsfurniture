@@ -53,7 +53,7 @@ function setupProductInteraction(product, modelArray) {
 
     function toggleProductInfo() {
         console.log('Info button clicked for ' + product);
-        infoElement.classList.toggle('visible');
+        infoElement.style.display = "block";
     }
 
     var infoButton = document.querySelector('.card[data-product="' + product + '"] .model-info');

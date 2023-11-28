@@ -13,10 +13,16 @@
   display: none;
 }
 
-#beanbag-info {
+#beanBag-info {
   display: none;
 }
-
+.product-info{
+  height:200px;
+  overflow: scroll;
+  padding:20px;
+  text-align: left;
+  background-color: antiquewhite;
+}
 
 .visible {
     display: block;
