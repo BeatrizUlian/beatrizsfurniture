@@ -34,10 +34,12 @@
 //     document.getElementById("model-chair").src = myModels[counter];
 // });
 
-function setupModelChange(product, modelArray) {
+// Function to set up color change and info display for a product
+function setupProductInteraction(product, modelArray) {
     var counter = 0;
     var buttons = document.querySelectorAll('.card[data-product="' + product + '"] .change-colour');
     var model = document.querySelector('.card[data-product="' + product + '"] .model');
+    var infoElements = document.querySelectorAll('.card[data-product="' + product + '"] .product-info');
 
     buttons.forEach(function (button) {
         button.addEventListener("click", function () {
@@ -48,16 +50,28 @@ function setupModelChange(product, modelArray) {
             model.src = modelArray[counter];
         });
     });
+
+    // Function to toggle the visibility of product information
+    function toggleProductInfo() {
+        infoElements.forEach(function (infoElement) {
+            infoElement.classList.toggle('visible');
+        });
+    }
+
+    // Event listener for the info button
+    var infoButton = document.querySelector('.card[data-product="' + product + '"] .model-info');
+    infoButton.addEventListener("click", toggleProductInfo);
 }
 
 // Product 1: Rustic Pine Desk
 var deskModels = ["./models/desk.glb", "./models/DeskRedOak.glb"];
-setupModelChange("desk", deskModels);
+setupProductInteraction("desk", deskModels);
 
 // Product 2: Elegant Chair
 var chairModels = ["./models/Chair.glb", "./models/ChairGreyLeather.glb", "./models/ChairLightBeigeLeather.glb"];
-setupModelChange("chair", chairModels);
+setupProductInteraction("chair", chairModels);
 
-// Product 3: BeanBag Chair
-var beanBagModels = ["./models/BeanBagChair.glb", "./models/ChairBeanBagNaturalBuffaloLeather.glb"];
-setupModelChange("beanBag", beanBagModels);
+// Product 3: Beanbag Chair
+var beanbagModels = ["./models/BeanBagChair.glb"];
+setupProductInteraction("beanBag", beanbagModels);
+
