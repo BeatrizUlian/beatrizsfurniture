@@ -138,18 +138,7 @@
     text-align: center;
   }
   
-  .main-img {
-    opacity: 95%;
-    border-radius: 5px;
-    max-width: 100%;
-    width: 750px;
-    margin-top: 50px;
-  }
-  
-  .main-img:hover{
-    opacity:100%;
-    transition: 0.3s;
-  }
+
   
   @media (max-width: 576px){
     .main p {
@@ -202,13 +191,13 @@
   }
   
 #model{
-    width: 450px;
-    height:500px;
+    width: 350px;
+    height:400px;
   
 }
 .model{
-    width: 450px;
-    height: 500px;
+    width: 350px;
+    height: 400px;
 }
 
   
