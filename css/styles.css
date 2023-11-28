@@ -182,7 +182,7 @@ height: 800px;
     width: 75%;
   }
   .card{
-    background: #fff;
+    background: rgb(241, 239, 237);
     width: 450px;
     height: 500px;
     text-align: center;
@@ -206,8 +206,8 @@ height: 800px;
   
 }
 .model{
-    width: 350px;
-    height: 400px;
+    width: 450px;
+    height: 500px;
 }
 
 button{
