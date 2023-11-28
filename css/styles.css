@@ -193,6 +193,11 @@ button:hover{
     .footer {
       margin-top: 400px;
     }
+    .model{
+      width: 350px;
+      height: 400px;
+      margin:auto;
+  }
   }
  
   
