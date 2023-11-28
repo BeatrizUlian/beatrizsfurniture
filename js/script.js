@@ -57,3 +57,7 @@ setupModelChange("desk", deskModels);
 // Product 2: Elegant Chair
 var chairModels = ["./models/Chair.glb", "./models/ChairGreyLeather.glb", "./models/ChairLightBeigeLeather.glb"];
 setupModelChange("chair", chairModels);
+
+// Product 3: BeanBag Chair
+var beanBagModels = ["./models/BeanBagChair.glb", "./models/ChairBeanBagNaturalBuffaloLeather.glb"];
+setupModelChange("beanBag", beanBagModelsModels);
