@@ -16,7 +16,7 @@ document.getElementById("change-colour-desk").addEventListener("click", function
     if (counter==3) { 
         counter = 0;
     }
-    document.getElementById("model").src = myModels[counter];
+    document.getElementById("model-desk").src = myModels[counter];
 });
 
 
@@ -30,5 +30,5 @@ document.getElementById("change-colour-chair").addEventListener("click", functio
     if (counter==3) { 
         counter = 0;
     }
-    document.getElementById("model").src = myModels[counter];
+    document.getElementById("model-chair").src = myModels[counter];
 });
