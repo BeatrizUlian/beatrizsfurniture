@@ -60,4 +60,4 @@ setupModelChange("chair", chairModels);
 
 // Product 3: BeanBag Chair
 var beanBagModels = ["./models/BeanBagChair.glb", "./models/ChairBeanBagNaturalBuffaloLeather.glb"];
-setupModelChange("beanBag", beanBagModelsModels);
+setupModelChange("beanBag", beanBagModels);
