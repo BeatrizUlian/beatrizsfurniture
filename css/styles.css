@@ -156,6 +156,10 @@ height: 850px;
   @media (max-width: 600px){
   .card1{
     height: 800px;
+
+  }
+  .product {
+    margin: 15px;
   }
   }
 #model{
