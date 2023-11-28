@@ -2,7 +2,7 @@
     background-color: #ffffff;
     color: rgb(9, 47, 34);
     border-radius: 3px;
-    padding: 3px;
+    padding: 5px;
 }
 
 #desk-info {
@@ -162,10 +162,7 @@ height: 850px;
     margin: 15px;
   }
   }
-#model{
-    width: 350px;
-    height:400px;
-}
+
 .model{
     width: 450px;
     height: 500px;
@@ -203,7 +200,6 @@ button:hover{
     .footer {
       border-top: 1px solid #4a2011;
       text-align: center;
-        opacity: 50px;
         margin-top: 100px;
         border-radius: 10px;
         width: 100%;
