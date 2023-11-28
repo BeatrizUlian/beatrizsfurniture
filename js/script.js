@@ -33,7 +33,6 @@
 //     }
 //     document.getElementById("model-chair").src = myModels[counter];
 // });
-
 // Function to set up color change and info display for a product
 function setupProductInteraction(product, modelArray) {
     var counter = 0;
@@ -43,6 +42,7 @@ function setupProductInteraction(product, modelArray) {
 
     buttons.forEach(function (button) {
         button.addEventListener("click", function () {
+            console.log('Change color button clicked for ' + product);
             counter++;
             if (counter === modelArray.length) {
                 counter = 0;
@@ -51,12 +51,11 @@ function setupProductInteraction(product, modelArray) {
         });
     });
 
-    // Function to toggle the visibility of product information
     function toggleProductInfo() {
+        console.log('Info button clicked for ' + product);
         infoElement.classList.toggle('visible');
     }
 
-    // Event listener for the info button
     var infoButton = document.querySelector('.card[data-product="' + product + '"] .model-info');
     infoButton.addEventListener("click", toggleProductInfo);
 }
@@ -69,6 +68,7 @@ setupProductInteraction("desk", deskModels);
 var chairModels = ["./models/Chair.glb", "./models/ChairGreyLeather.glb", "./models/ChairLightBeigeLeather.glb"];
 setupProductInteraction("chair", chairModels);
 
+
 // Product 3: Beanbag Chair
-var beanbagModels = ["./models/BeanBagChair.glb"];
+var beanbagModels = ["./models/BeanBagChair.glb", "./models/ChairBeanBagNaturalBuffaloLeather.glb"];
 setupProductInteraction("beanBag", beanbagModels);
