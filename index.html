@@ -2,129 +2,185 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>Beatriz's Furnitures</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Beatriz's Furnitures</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Nunito:wght@400;500;700&family=Space+Mono&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Nunito:wght@400;500;700&family=Space+Mono&family=Ubuntu+Mono&display=swap"
+        rel="stylesheet">
     <link rel='stylesheet' type='text/css' media='screen' href='css/styles.css'>
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 
 <body>
 
-	<header id="header">
+    <header id="header">
 
 
-		<div class="logo">
-			<img id="header-img"  src="./images/heroimg.png"></img>
-      </div>
+        <div class="logo">
+            <img id="header-img" src="./images/heroimg.png"></img>
+        </div>
 
 
-  </header>
-<main>
-  
+    </header>
+        <section class="product">
+            <div class="card1">
+                <div class="card" data-product="desk">
+                    <h1>Rustic Pine Desk</h1>
+                    <h2>$2,500 USD</h2>
+                    <model-viewer class="model" src="./models/desk.glb" ar ar-modes="webxr scene-viewer quick-look"
+                        camera-controls poster="./images/DeskPoster.webp" shadow-intensity="1"
+                        camera-orbit="22.62deg 73.09deg 3.091m" field-of-view="30deg">
+                        <button class="Hotspot change-colour"
+                            data-position="0.17163472261701496m 0.6920118569702743m -0.24086802219311831m"
+                            data-normal="-0.19992926251495172m 0.17267762940476483m 0.9644743264044816m"
+                            data-visibility-attribute="visible">
+                            <div class="HotspotAnnotation">Change color</div>
+                        </button>
+                        <button class="Hotspot model-info"
+                            data-position="0.20160460966519067m 0.9518647916701948m -0.30079544460952334m"
+                            data-normal="-0.16961308584409104m 0.31732330448544577m 0.93302589542889m"
+                            data-visibility-attribute="visible">
+                            <div class="HotspotAnnotation">Information</div>
+                        </button>
+                    </model-viewer>
+                    <div class="product-info" id="desk-info">
+                        <p>Introducing our Rustic Pine Desk, a timeless piece that seamlessly blends craftsmanship with
+                            an inviting charm. Crafted from sturdy pine wood, this desk is more than just a workspace –
+                            it's a testament to the artistry and warmth of natural materials.
 
-   <section class="product">
+                            The distinctive grain of the pine wood adds character, creating a rustic allure that
+                            transports you to a cabin in the woods. Meticulously constructed, the desk features a
+                            spacious work surface, providing ample room for creativity to flow and productivity to
+                            thrive.
+                        </p>
+                        <p>The wax patine-finished drawers not only enhance the aesthetic appeal but also bring a touch
+                            of rustic sophistication. Each drawer tells a story of detailed craftsmanship, providing
+                            both functionality and a sense of artistry to your workspace.
 
-    <div class="card" data-product="desk">
-        <h1>Rustic Pine Desk</h1>
-        <h2>$2,500 USD</h2>
-        <model-viewer class="model" src="./models/desk.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./images/DeskPoster.webp" shadow-intensity="1" camera-orbit="22.62deg 73.09deg 3.091m"  field-of-view="30deg">
-            <button class="Hotspot change-colour" data-position="0.17163472261701496m 0.6920118569702743m -0.24086802219311831m" data-normal="-0.19992926251495172m 0.17267762940476483m 0.9644743264044816m" data-visibility-attribute="visible">
-                <div class="HotspotAnnotation">Change color</div>
-            </button>
-            <button class="Hotspot model-info" data-position="0.20160460966519067m 0.9518647916701948m -0.30079544460952334m" data-normal="-0.16961308584409104m 0.31732330448544577m 0.93302589542889m" data-visibility-attribute="visible">
-                <div class="HotspotAnnotation">Information</div>
-            </button>
-    </model-viewer>
-        <div class="product-info" id="desk-info"><p>Introducing our Rustic Pine Desk, a timeless piece that seamlessly blends craftsmanship with an inviting charm. Crafted from sturdy pine wood, this desk is more than just a workspace – it's a testament to the artistry and warmth of natural materials.
+                            Whether it's placed in a home office or a study, the Rustic Pine Desk becomes the focal
+                            point of the room. Its seamless blend of durability, style, and functionality makes it a
+                            versatile addition, allowing you to infuse your space with a natural, inviting ambiance.
+                        </p>
 
-            The distinctive grain of the pine wood adds character, creating a rustic allure that transports you to a cabin in the woods. Meticulously constructed, the desk features a spacious work surface, providing ample room for creativity to flow and productivity to thrive.
-            </p>
-            <p>The wax patine-finished drawers not only enhance the aesthetic appeal but also bring a touch of rustic sophistication. Each drawer tells a story of detailed craftsmanship, providing both functionality and a sense of artistry to your workspace.
-            
-            Whether it's placed in a home office or a study, the Rustic Pine Desk becomes the focal point of the room. Its seamless blend of durability, style, and functionality makes it a versatile addition, allowing you to infuse your space with a natural, inviting ambiance.
-            </p>
-          
-            <p>Elevate your work environment with the Rustic Pine Desk – a piece where every knot and grain tells a story of quality and craftsmanship. Transform your workspace into a haven of inspiration, where classic design meets modern sensibility.</p>
+                        <p>Elevate your work environment with the Rustic Pine Desk – a piece where every knot and grain
+                            tells a story of quality and craftsmanship. Transform your workspace into a haven of
+                            inspiration, where classic design meets modern sensibility.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-    
-    <!-- Product 2: Elegant Accent Chair -->
-    <div class="card" data-product="chair">
-        <h1>Elegant Accent Chair</h1>
-        <h2>$400 CAD</h2>
-        <model-viewer class="model" src="./models/Chair.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./images/ChairPoster.webp" shadow-intensity="1" camera-orbit="22.62deg 73.09deg 3.091m" field-of-view="30deg">
-            <button class="Hotspot change-colour" data-position="0.17163472261701496m 0.6920118569702743m -0.24086802219311831m" data-normal="-0.19992926251495172m 0.17267762940476483m 0.9644743264044816m" data-visibility-attribute="visible">
-                <div class="HotspotAnnotation">Change color</div>
-            </button>
-            <button class="Hotspot model-info" data-position="0.20160460966519067m 0.9518647916701948m -0.30079544460952334m" data-normal="-0.16961308584409104m 0.31732330448544577m 0.93302589542889m" data-visibility-attribute="visible">
-                <div class="HotspotAnnotation">Information</div>
-            </button>
-        </model-viewer>
-        <div class="progress-bar hide" slot="progress-bar">
-            <div class="update-bar"></div>
-        </div>
+            <!-- Product 2: Elegant Accent Chair -->
+            <div class="card1">
+                <div class="card" data-product="chair">
+                    <h1>Elegant Accent Chair</h1>
+                    <h2>$400 CAD</h2>
+                    <model-viewer class="model" src="./models/Chair.glb" ar ar-modes="webxr scene-viewer quick-look"
+                        camera-controls poster="./images/ChairPoster.webp" shadow-intensity="1"
+                        camera-orbit="22.62deg 73.09deg 3.091m" field-of-view="30deg">
+                        <button class="Hotspot change-colour"
+                            data-position="0.17163472261701496m 0.6920118569702743m -0.24086802219311831m"
+                            data-normal="-0.19992926251495172m 0.17267762940476483m 0.9644743264044816m"
+                            data-visibility-attribute="visible">
+                            <div class="HotspotAnnotation">Change color</div>
+                        </button>
+                        <button class="Hotspot model-info"
+                            data-position="0.20160460966519067m 0.9518647916701948m -0.30079544460952334m"
+                            data-normal="-0.16961308584409104m 0.31732330448544577m 0.93302589542889m"
+                            data-visibility-attribute="visible">
+                            <div class="HotspotAnnotation">Information</div>
+                        </button>
+                    </model-viewer>
+                    <div class="progress-bar hide" slot="progress-bar">
+                        <div class="update-bar"></div>
+                    </div>
 
-        <div class="product-info" id="chair-info">
-            <p>Indulge in luxury with our Elegant Leather Accent Chair, a masterpiece of sophistication and comfort. Crafted with meticulous attention to detail, this chair seamlessly combines timeless design with the sumptuous feel of genuine leather.
-                </p>
-           <p> The chair's versatile design makes it a perfect addition to both classic and contemporary interiors. Whether placed in a cozy reading nook, a sophisticated living room, or an executive office, this leather accent chair becomes the focal point, elevating the aesthetic appeal of any space.</p>
+                    <div class="product-info" id="chair-info">
+                        <p>Indulge in luxury with our Elegant Leather Accent Chair, a masterpiece of sophistication and
+                            comfort. Crafted with meticulous attention to detail, this chair seamlessly combines
+                            timeless design with the sumptuous feel of genuine leather.
+                        </p>
+                        <p> The chair's versatile design makes it a perfect addition to both classic and contemporary
+                            interiors. Whether placed in a cozy reading nook, a sophisticated living room, or an
+                            executive office, this leather accent chair becomes the focal point, elevating the aesthetic
+                            appeal of any space.</p>
 
-<p>Embrace a lifestyle of luxury and comfort with our Elegant Leather Accent Chair, where sophistication meets relaxation in every sit.
+                        <p>Embrace a lifestyle of luxury and comfort with our Elegant Leather Accent Chair, where
+                            sophistication meets relaxation in every sit.
 
-        </p>
+                        </p>
 
-        </div>
-    </div>
+                    </div>
+                </div>
+            </div>
 
-    <!-- Product 3: Luxurious Leather BeanBag -->
-    <div class="card" data-product="beanBag">
-        <h1>Luxurious Leather BeanBag</h1>
-        <h2>$250 CAD</h2>
-        <model-viewer class="model" src="./models/BeanBagChair.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="./images/ChairBeanBagPoster.webp" shadow-intensity="1" camera-orbit="22.62deg 73.09deg 3.091m" field-of-view="30deg">
-            <button class="Hotspot change-colour" data-position="0.17163472261701496m 0.6920118569702743m -0.24086802219311831m" data-normal="-0.19992926251495172m 0.17267762940476483m 0.9644743264044816m" data-visibility-attribute="visible">
-                <div class="HotspotAnnotation">Change color</div>
-            </button>
-            <button class="Hotspot model-info" data-position="0.20160460966519067m 0.9518647916701948m -0.30079544460952334m" data-normal="-0.16961308584409104m 0.31732330448544577m 0.93302589542889m" data-visibility-attribute="visible">
-                <div class="HotspotAnnotation">Information</div>
-            </button>
-        </model-viewer>
-        <div class="progress-bar hide" slot="progress-bar">
-            <div class="update-bar"></div>
-        </div>
-        <div class="product-info" id="beanBag-info">
-            <p>Immerse yourself in the epitome of relaxation with our Luxurious Leather Beanbag Chair. Crafted for the ultimate lounging experience, this beanbag seamlessly marries the casual charm of a classic beanbag with the opulence of genuine leather.
-
-            Sink into the plush embrace of the sumptuous leather upholstery, which not only exudes a touch of luxury but also promises unparalleled durability. The supple texture of the leather adds a layer of sophistication to the chair, making it a statement piece in any room.</p>
-            
-           <p> Designed for comfort, the beanbag features a generous and contoured silhouette that cradles your body, providing a cocoon-like experience. The ample size and supportive design make it perfect for unwinding after a long day, whether you're reading a book, watching a movie, or simply enjoying a moment of tranquility.</p>
-            
-           <p>The cozy atmosphere is enhanced by the warmth of the leather, creating a snug retreat that invites you to relax and unwind. Whether placed in a living room, bedroom, or cozy corner, our Luxurious Leather Beanbag Chair adds a touch of elegance to any space while offering a haven of comfort.</p>
-        </div>
-    </div>
+            <!-- Product 3: Luxurious Leather BeanBag -->
+            <div class="card1">
 
 
+                <div class="card" data-product="beanBag">
+                    <h1>Luxurious Leather BeanBag</h1>
+                    <h2>$250 CAD</h2>
+                    <model-viewer class="model" src="./models/BeanBagChair.glb" ar
+                        ar-modes="webxr scene-viewer quick-look" camera-controls
+                        poster="./images/ChairBeanBagPoster.webp" shadow-intensity="1"
+                        camera-orbit="22.62deg 73.09deg 3.091m" field-of-view="30deg">
+                        <button class="Hotspot change-colour"
+                            data-position="0.17163472261701496m 0.6920118569702743m -0.24086802219311831m"
+                            data-normal="-0.19992926251495172m 0.17267762940476483m 0.9644743264044816m"
+                            data-visibility-attribute="visible">
+                            <div class="HotspotAnnotation">Change color</div>
+                        </button>
+                        <button class="Hotspot model-info"
+                            data-position="0.20160460966519067m 0.9518647916701948m -0.30079544460952334m"
+                            data-normal="-0.16961308584409104m 0.31732330448544577m 0.93302589542889m"
+                            data-visibility-attribute="visible">
+                            <div class="HotspotAnnotation">Information</div>
+                        </button>
+                    </model-viewer>
+                    <div class="progress-bar hide" slot="progress-bar">
+                        <div class="update-bar"></div>
+                    </div>
+                    <div class="product-info" id="beanBag-info">
+                        <p>Immerse yourself in the epitome of relaxation with our Luxurious Leather Beanbag Chair.
+                            Crafted for the ultimate lounging experience, this beanbag seamlessly marries the casual
+                            charm of a classic beanbag with the opulence of genuine leather.
 
-    
-</section>
+                            Sink into the plush embrace of the sumptuous leather upholstery, which not only exudes a
+                            touch of luxury but also promises unparalleled durability. The supple texture of the leather
+                            adds a layer of sophistication to the chair, making it a statement piece in any room.</p>
 
-</main>
+                        <p> Designed for comfort, the beanbag features a generous and contoured silhouette that cradles
+                            your body, providing a cocoon-like experience. The ample size and supportive design make it
+                            perfect for unwinding after a long day, whether you're reading a book, watching a movie, or
+                            simply enjoying a moment of tranquility.</p>
+
+                        <p>The cozy atmosphere is enhanced by the warmth of the leather, creating a snug retreat that
+                            invites you to relax and unwind. Whether placed in a living room, bedroom, or cozy corner,
+                            our Luxurious Leather Beanbag Chair adds a touch of elegance to any space while offering a
+                            haven of comfort.</p>
+                    </div>
+                </div>
+            </div>
 
 
-<footer class="footer">
-<p>Beatriz's Furniture - All Rights Reserved.</p>
-<p>Disclaimer: description of products made with help of ChatGPT.</p>
-</footer>
+
+        </section>
 
 
-<script src="js/script.js"></script>
-  </body>
+
+    <footer class="footer">
+        <p>Beatriz's Furniture - All Rights Reserved.</p>
+        <p>Disclaimer: description of products made with help of ChatGPT.</p>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+
 </html>
-
-

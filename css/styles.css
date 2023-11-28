@@ -99,74 +99,16 @@
     width: 100%;
   }
   
-  #nav-bar ul {
-  display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  #nav-bar a {
-    font-size: 1.1em;
-    display: inline-block;
-   color: #4a2011;
-   padding: 10px;
-  }
-  
-  #nav-bar a:hover {
-    color: white;
-    background: #4a2011;
-    border-radius: 5px;
-  }
-  
-  #nav-bar ul li a:after {
-    content: "";
-    display: block;
-    height: 2px;
-    background: #00ad8b;
-    margin-top: 4px;
-    width: 0px;
-    transition: 0.3s;
-    position: absolute;
-  }
-  
-  .nav-bar ul li a:hover:after {
-    width: 100%;
-  }
   @media (max-width: 576px){
     .logo {
-      max-width: 50%;
+      max-width: 100%;
       margin:auto;
     }
   #header {
     justify-content: center;
   }
-  #nav-bar ul {
-    gap: 10px;
   }
-  
-  #nav-bar a {
-    font-size: 0.7em;
-    display: inline-block;
-   color: #4a2011;
-   padding: 7px;
-  }
-  }
-  /* about */
-  .main {
-    max-width: 960px;
-    margin: auto;
-    text-align: center;
-  }
-  
 
-  
-  @media (max-width: 576px){
-    .main p {
-      padding: 10px;
-     font-size: 0.9em;
-     line-height: 30px;
-    }
-  }
   
   /* products*/ 
   .product{
@@ -176,22 +118,33 @@
     flex-wrap: wrap;
     gap: 20px;
     justify-content:center;
-height: 800px;
+height: 850px;
+
   }
   
-  .product-img{
-    width: 75%;
-  }
+
   .card{
-    background: rgb(241, 239, 237);
     width: 450px;
-    height: 500px;
+    height: 850px;
     text-align: center;
     font-size: 14px;
     border-radius: 5px;
     opacity: 95%;
+    overflow: scroll;
+
+
   }
 
+  .card1{
+    background: rgb(241, 239, 237);
+    width: 450px;
+    height: 500px;
+    border-radius: 5px;
+    opacity: 95%;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
   
   
   .card:hover {
@@ -199,6 +152,12 @@ height: 800px;
   transition: 0.3s;
   }
   
+
+  @media (max-width: 600px){
+  .card1{
+    height: 800px;
+  }
+  }
 #model{
     width: 350px;
     height:400px;
@@ -229,6 +188,9 @@ button:hover{
   @media (max-width: 600px){
     .products {
       margin-top:50px;
+    }
+    .footer {
+      margin-top: 400px;
     }
   }
  
