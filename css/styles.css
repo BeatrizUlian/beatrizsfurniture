@@ -76,7 +76,7 @@
   @media (max-width: 600px){
     h1 {
       padding: 5px;
-      font-size: 1.2em;
+      font-size: 1.4em;
     }
   }
   /*header*/
@@ -155,11 +155,18 @@ height: 850px;
 
   @media (max-width: 600px){
   .card1{
-    height: 800px;
+    height: 700px;
 
+  }
+  h1{
+   margin-left: 15px;
+  }
+  h2{
+    margin-left: 15px;
   }
   .product {
     margin: 15px;
+    height: 700;
   }
   }
 
@@ -187,9 +194,7 @@ button:hover{
 
   
   @media (max-width: 600px){
-    .products {
-      margin-top:50px;
-    }
+    
     .footer {
       margin-top: 400px;
     }
